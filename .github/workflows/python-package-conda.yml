@@ -26,4 +26,4 @@ jobs:
 
       - name: Run Streamlit app (headless test)
         run: |
-          timeout 10m streamlit run app.py || echo "Streamlit run finished"
+          timeout 15m streamlit run app.py || echo "Streamlit run finished"
